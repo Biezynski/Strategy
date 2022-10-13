@@ -1,5 +1,5 @@
 fun main(args: Array<String>) {
-
+// https://www.youtube.com/watch?v=uA_hZzw0Kl0&ab_channel=DevEnv
 
     val employeeCEO = Employee(type = EmployeeType.CEO, strategy = CalculateCEOStrategy())
     println(employeeCEO.calculateNewSalary(100.0,100.0,1.0,2.0))
